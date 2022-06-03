@@ -6,7 +6,7 @@
 header {
   height: 120px;
 }
-nav {
+.navigation {
   height: calc(100vh - 350px);
   overflow-y: auto;
 }
@@ -20,11 +20,4 @@ footer {
 .content {
   height: calc(100vh - 350px);
   overflow-y: auto;
-}
-
-.nav-box {
-  height: 80px;
-  width: 100%;
-  border: 1px solid darkgrey;
-  margin-top: 20px;
 }

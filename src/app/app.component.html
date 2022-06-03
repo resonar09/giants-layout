@@ -1,33 +1,9 @@
 <div class="container-fluid p-4">
   <div class="row border m-2">
-    <header class="col">
-      <img
-        src="assets/images/giants-logo.png"
-        alt="New York Giants Logo"
-        width="120"
-        height="120"
-      />
-    </header>
+    <app-header class="col"></app-header>
   </div>
   <div class="row m-2">
-    <nav class="col border">
-      <div class="d-flex flex-column">
-        <div class="nav-box"></div>
-        <div class="nav-box"></div>
-        <div class="nav-box"></div>
-        <div class="nav-box"></div>
-        <div class="nav-box"></div>
-        <div class="nav-box"></div>
-        <div class="nav-box"></div>
-        <div class="nav-box"></div>
-        <div class="nav-box"></div>
-        <div class="nav-box"></div>
-        <div class="nav-box"></div>
-        <div class="nav-box"></div>
-        <div class="nav-box"></div>
-        <div class="nav-box"></div>
-      </div>
-    </nav>
+   <app-nav class="col navigation border"></app-nav>
     <section class="col-8 ms-2 me-2 border">
       <div class="content">
         <router-outlet></router-outlet>
@@ -36,6 +12,6 @@
     <aside class="col border"></aside>
   </div>
   <div class="row border m-2">
-    <footer></footer>
+    <app-footer></app-footer>
   </div>
 </div>
